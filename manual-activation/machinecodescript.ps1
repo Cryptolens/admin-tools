@@ -10,7 +10,7 @@ namespace Cryptolens
     {
         public static string GetMachineCode()
         {
-            return getSHA256(ExecCommand("cmd.exe", "/C wmic csproduct get uuid", 1),1);
+            return getSHA256(ExecCommand("cmd.exe", "/C wmic csproduct get uuid", 1),1) + " " + Environment.MachineName;
         }
 
         public static string getSHA256(string s, int v = 1)
