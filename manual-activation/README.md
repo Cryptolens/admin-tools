@@ -18,5 +18,7 @@ set-executionpolicy remotesigned
 ## Verifying the license key
 In the [key verification](https://help.cryptolens.io/examples/key-verification) example, we use Activate to verify a license. This method will automatically activate new machines, as long as the max number of machines limit has not been reached. To prevent activation of new machines, [GetKey](https://help.cryptolens.io/api/dotnet/api/SKM.V3.Methods.Key.html#SKM_V3_Methods_Key_GetKey_System_String_SKM_V3_Models_KeyInfoModel_) method can be used instead. It is called with the same parameters as [Activate](https://help.cryptolens.io/api/dotnet/api/SKM.V3.Methods.Key.html#SKM_V3_Methods_Key_Activate_System_String_SKM_V3_Models_ActivateModel_). The machine code parameter does not need to be provided.
 
+> **Note:** when using GetKey, it is important to check that the license key is not blocked. Activate does that by default, but when using GetKey, it needs to be done on the client side.
+
 ## Script to automatically activate all the machines
 A script is currently being developed and will be available soon.
