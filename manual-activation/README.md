@@ -23,4 +23,4 @@ In the [key verification](https://help.cryptolens.io/examples/key-verification) 
 ## Script to automatically activate all the machines
 You can activate the list of devices using the following extension: https://app.cryptolens.io/extensions/ActivateDevices
 
-Each device/machine code should be separated by a new line. A line can contain either a machine code or a machine code together with the friendly name, separated by a tabs (\t) character.
+Each device/machine code should be separated by a new line. A line can contain either a machine code or a machine code together with the friendly name, separated by a tab (\t) character.
