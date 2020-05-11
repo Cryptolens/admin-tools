@@ -21,4 +21,6 @@ In the [key verification](https://help.cryptolens.io/examples/key-verification) 
 > **Note:** when using GetKey, it is important to check that the license key is not blocked. Activate does that by default, but when using GetKey, it needs to be done on the client side.
 
 ## Script to automatically activate all the machines
-A script is currently being developed and will be available soon.
+You can activate the list of devices using the following extension: https://app.cryptolens.io/extensions/ActivateDevices
+
+Each device/machine code should be separated by a new line. A line can contain either a machine code or a machine code together with the friendly name, separated by a tabs (\t) character.
