@@ -19,6 +19,8 @@ for /f "skip=1 delims=:" %%a in ('CertUtil -hashfile %TEMP%\cryptolensmachinecod
   set/a count+=1
 )
 
+set hash=%hash: =%
+
 echo|set/p=%hash% %compName%
 
 endlocal
